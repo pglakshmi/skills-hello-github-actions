@@ -4,3 +4,9 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:  
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet good job
+        run: echo "good job"
